@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ayam Kecap Pedas"
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/resep_ayam_kecap_pedas_1_43" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bahan - Bahan :"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="500 g daging paha ayam bagian atas tanpa tulang, 4 sdm minyak sayur, 2 buah cabe merah, iris serong, 1 batang daun bawang, iris kasar, 100 ml kecap manis, 3 sdm saus tiram, 1 sdt cabe merah bubuk, 500 ml air, 2 buah jeruk limau, ambil airnya"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cara Membuat :"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cuci bersih daging paha ayam, potong-potong kasar.
+Panaskan minyak, tumis Bumbu Halus hingga matang dan harum.
+Masukkan potongan daging paha ayam. Aduk hingga kaku dan berubah warna.
+Tambahkan duan bawang dan cabe, aduk hingga layu lalu angkat.
+Masukkan ke dalam panci, tambahkan kecap manis, saus tiram, cabe bubuk dan air.
+Masak dengan api kecil hingga bumbu meresap dan kuahnya menyusut dan ayam matang.
+Perciki air jeruk limau lalu angkat."
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Berikan Komentarmu :"
+                android:textColor="#111111"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="kembali1"
+                android:text="Simpan dan Kembali" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
